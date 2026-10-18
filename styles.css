@@ -142,10 +142,9 @@ h2 {
     line-height: 1.5;
     margin-bottom: 15px;
 }
-/* Projects Page Grid Settings */
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* මෙන්න මේකෙන් තමයි පේළියට 2 බැගින් හදන්නේ */
+    grid-template-columns: 1fr 1fr; 
     gap: 30px;
     margin-top: 30px;
 }
