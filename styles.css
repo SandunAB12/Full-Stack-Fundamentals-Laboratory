@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    color: #7f888f;
+}
+
+/* Header & Navigation */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f56a6a; 
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d4449;
+    text-decoration: none;
+}
+.nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #7f888f;
+}
+.nav a.active, .nav a:hover {
+    color: #f56a6a; 
+}
+
+
+.banner-img {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1 {
+    color: #3d4449;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.tagline {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.desc {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+.btn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #f56a6a;
+    color: #f56a6a;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.line {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 40px 0;
+}
+
+
+h2 {
+    color: #3d4449;
+    font-size: 24px;
+    border-bottom: 2px solid #f56a6a;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+}
+.icon {
+    font-size: 30px;
+    color: #f56a6a;
+    margin-right: 20px;
+    line-height: 1;
+}
+.text-box h3 {
+    color: #3d4449;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.text-box p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid #eeeeee;
+}
+.sub-footer {
+    color: #b2b2b2;
+    margin-top: 5px;
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.project-card {
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+.project-card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+.project-card h3 {
+    color: #3d4449;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.project-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+/* Projects Page Grid Settings */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* මෙන්න මේකෙන් තමයි පේළියට 2 බැගින් හදන්නේ */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
